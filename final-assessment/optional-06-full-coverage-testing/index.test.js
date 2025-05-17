@@ -2,7 +2,7 @@ import { describe, it, expect } from 'bun:test';
 import sum from '../optional-06-full-coverage-testing/index.js';
 
 describe('Calculation', () => {
-  it('Postive  test: should sum correctly', () => {
+  it('Postive test: should sum correctly', () => {
     //Arrange
     const operandA = 2;
     const operandB = 2;

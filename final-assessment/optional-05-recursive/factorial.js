@@ -4,7 +4,7 @@ function factorial(n) {
     return 1;
   }
   
-  return factorial(n-1) * n;
+  return factorial(n - 1) * n;
 }
 
 // Jangan hapus kode di bawah ini!
