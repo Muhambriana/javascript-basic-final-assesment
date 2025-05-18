@@ -26,12 +26,13 @@ class Inventory {
   }
 
   listItems() {
+    if (this.items.length === 0) return "";
+
     return this.items.map( item =>
       item.displayDetails()
-    );
+    ).join("\n");
   }
 }
-
 
 // Jangan hapus kode di bawah ini!
 export default Inventory;
